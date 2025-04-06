@@ -1,4 +1,4 @@
-wait(2)
+wait(1)
 local player = game:GetService("Players").LocalPlayer
 local levelLabel = player:WaitForChild("PlayerGui"):WaitForChild("HUD"):WaitForChild("Top"):WaitForChild("Currencies"):WaitForChild("Level"):WaitForChild("LevelAmount")
 local http = game:GetService("HttpService")
@@ -14,7 +14,7 @@ end
 levelLabel:GetPropertyChangedSignal("Text"):Connect(checkLevel)
 checkLevel()
 
-wait(2)
+wait(1)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/medusaky/code/refs/heads/main/blr.lua", true))()
 
 local GuiService = game:GetService("GuiService")
