@@ -1,4 +1,4 @@
-.wait(2)
+wait(2)
 local player = game:GetService("Players").LocalPlayer
 local levelLabel = player:WaitForChild("PlayerGui"):WaitForChild("HUD"):WaitForChild("Top"):WaitForChild("Currencies"):WaitForChild("Level"):WaitForChild("LevelAmount")
 local http = game:GetService("HttpService")
